@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+        <item
+                android:title="Menu"
+            android:id="@+id/action_notification1"
+
+
+            app:showAsAction="always"
+         >
+
+                <menu>
+                        <item
+                            android:id="@+id/first_fragment"
+                            android:icon="@drawable/fiction"
+                            android:title="@string/fiction_genre"
+                            />
+
+                        <item
+                            android:id="@+id/second_fragment"
+                            android:icon="@drawable/nonfiction"
+                            android:title="@string/non_fiction"
+                            />
+
+                        <item
+                            android:id="@+id/third_fragment"
+                            android:icon="@drawable/drama"
+                            android:title="@string/drama"
+                            />
+                </menu>
+        </item>
+</menu>
+
+
+
+
+
+
+
+
